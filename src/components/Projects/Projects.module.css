@@ -1,0 +1,13 @@
+.projects {
+    width: 70rem;
+    height: 30rem;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.projects-border{
+    border-radius: .5rem;
+}

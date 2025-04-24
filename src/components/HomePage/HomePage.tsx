@@ -5,6 +5,8 @@ import styles from "./HomePage.module.css"
 import Introduction from "@/components/Introduction/Introduction";
 import About from "@/components/About/About";
 import CarHolder from "@/components/CarHolder/CarHolder";
+import Background from "@/components/Background/Background";
+import Projects from "@/components/Projects/Projects";
 
 const HomePage = () => {
     return(
@@ -16,10 +18,10 @@ const HomePage = () => {
                 <About />
             </div>
             <div>
-                <CarHolder />
+                <Background />
             </div>
             <div>
-                <CarHolder />
+                <Projects />
             </div>
         </section>
     )
