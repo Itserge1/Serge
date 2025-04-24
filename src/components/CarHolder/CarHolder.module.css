@@ -1,0 +1,13 @@
+.cartHolder {
+    width: 70rem;
+    height: 30rem;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.cartHolder-border{
+    border-radius: .5rem;
+}

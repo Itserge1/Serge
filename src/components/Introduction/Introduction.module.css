@@ -1,0 +1,59 @@
+.intro{
+    width: 90rem;
+    height: 32rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    gap: 4rem;
+    /*background-color: darkblue;*/
+}
+
+.testInfos{
+    width: 140%;
+    /*background-color: darkblue;*/
+    /*padding: 0 2rem; */
+}
+
+.testInfos-title {
+    font-size: 3.5rem;
+}
+
+.testInfos-sub-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testInfo-Button{
+    height: 3rem;
+    width: 10rem;
+    border: 1px solid #00C2FF;
+    margin-top: 3rem;
+    transition: background-color 0.4s ease-in-out;
+    border-radius: 0.5rem;
+}
+
+.testInfo-Button:hover{
+    background-color: rgba(0, 194, 255, 0.3)
+}
+
+.SvgWrapper{
+    width: 100%;
+    /*height: 100%;*/
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renderSvg{
+    width: 80%;
+    height: 70%;
+    background-color: red;
+}
+
+.renderSvg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
