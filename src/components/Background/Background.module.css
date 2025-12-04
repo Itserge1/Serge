@@ -2,11 +2,44 @@
     width: 70rem;
     height: 30rem;
     background-color: #001823;
+    padding: 0 3rem;
+}
+
+.background__select {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: .5rem;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
+
+.background__select span{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.background__select span::before{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: #00C2FF;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: -.2rem;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.background__select span.active{
+    color: #00C2FF;
+}
+
+.background__select span.active::before{
+    width: 100%;
+}
+
 
 .background-border{
     border-radius: .5rem;
