@@ -1,0 +1,58 @@
+
+.project__card{
+    border-radius: .5rem;
+    width: 20rem;
+    height: 23rem;
+}
+
+.project__card-image{
+    width: 100%;
+    height: 60%;
+    background-color: grey;
+    /*background-color: #001823;*/
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+.project__card-infos h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project__cart-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.project__card-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project__icon{
+    font-size: 1.3rem;
+    transition: 0.7s;
+}
+
+.project__card-links a:hover{
+    color: #00C2FF;
+}
+
+.project__tech-carts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: .5rem;
+}
+
+.project__tech-carts span{
+    background-color: #00C2FF;
+    color: black;
+    padding: .1rem .5rem;
+    border-radius: .3rem;
+}
