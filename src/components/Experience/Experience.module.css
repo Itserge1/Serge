@@ -1,0 +1,52 @@
+.experience {
+    display: flex;
+}
+
+.experience__title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.experience__title span {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-left: 4px solid transparent;
+    transition: background-color 0.25s ease, border-left-color 0.25s ease;
+}
+
+.experience__title span:hover {
+    background-color: rgba(0, 194, 255, 0.15);
+}
+
+.active {
+    background-color: rgba(0, 194, 255, 0.3);
+    border-left-color: #00C2FF;
+    font-weight: 600;
+}
+
+.experience__content {
+    /*background-color: rebeccapurple;*/
+    width: 40rem;
+    /*height: 20rem;*/
+    margin-left: 2rem;
+    border-radius: 6px;
+}
+
+.experience__infos__header h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.experience__infos__header h3 span{
+    color: #00C2FF;
+}
+
+.experience__infos__header p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.experience__infos__points p {
+    margin: .5rem;
+}
