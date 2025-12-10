@@ -1,45 +1,33 @@
 .background {
+    /*background-color: #001823;*/
     width: 70rem;
-    height: 30rem;
-    background-color: #001823;
     padding: 0 3rem;
 }
 
-.background__select {
+.background__title{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 2rem;
-    margin-bottom: 1rem;
+    gap: .6rem;
 }
 
-.background__select span{
+.background__title h2{
     font-size: 2rem;
     font-weight: bold;
-    position: relative;
-    cursor: pointer;
+    margin: 0 0 1rem 0;
+    /*font-family: Open Sans', sans-serif;*/
 }
 
-.background__select span::before{
-    content: "";
-    width: 0;
-    height: 5px;
+.background__bar{
+    width: 1.8rem;
+    height: .7rem;
     background-color: #00C2FF;
     border-radius: .5rem;
-    position: absolute;
-    bottom: -.2rem;
-    left: 0;
-    transition: width 0.3s ease;
+    margin: 0 0 5px 0;
 }
 
-.background__select span.active{
-    color: #00C2FF;
+.background__contents{
+    padding: 1rem 0 0 5rem;
 }
-
-.background__select span.active::before{
-    width: 100%;
-}
-
 
 .background-border{
     border-radius: .5rem;
