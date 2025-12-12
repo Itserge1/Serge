@@ -4,9 +4,9 @@ import styles from "./HomePage.module.css"
 
 import Introduction from "@/components/Introduction/Introduction";
 import About from "@/components/About/About";
-import CarHolder from "@/components/CarHolder/CarHolder";
 import Background from "@/components/Background/Background";
 import Projects from "@/components/Projects/Projects";
+import FadeInSection from "@/components/FadeInSection/FadeInSection";
 
 const HomePage = () => {
     return(
@@ -14,15 +14,18 @@ const HomePage = () => {
             <div>
                 <Introduction />
             </div>
-            <div>
+
+            <FadeInSection>
                 <About />
-            </div>
-            <div>
+            </FadeInSection>
+
+            <FadeInSection>
                 <Background />
-            </div>
-            <div>
+            </FadeInSection>
+
+            <FadeInSection>
                 <Projects />
-            </div>
+            </FadeInSection>
         </section>
     )
 }

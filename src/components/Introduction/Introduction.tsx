@@ -1,10 +1,13 @@
 "use client"
 
 import styles from "./Introduction.module.css"
+import {useFadeIn} from "@/hooks/useFadeIn";
 
 const Introduction = () => {
+    const fadeInRef = useFadeIn();
+
     return(
-        <section className={styles.intro}>
+        <section ref={fadeInRef} className={`${styles.intro} fade-in-section`}>
             <div className={styles.testInfos}>
                 <p className={styles["testInfos-title"]}>Hi, My Name is Serge</p>
                 <p className={styles["testInfos-sub-title"]}>Software engineer in Nyc</p>
