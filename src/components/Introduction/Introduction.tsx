@@ -2,6 +2,7 @@
 
 import styles from "./Introduction.module.css"
 import {useFadeIn} from "@/hooks/useFadeIn";
+import ParticleOrb from "@/components/ParticleOrb/ParticleOrb";
 
 const Introduction = () => {
     const fadeInRef = useFadeIn();
@@ -23,12 +24,9 @@ const Introduction = () => {
                 <a href="mailto:realitserge@gmail.com">
                     <button className={styles["testInfo-Button"]}>Say Hi 👋</button>
                 </a>
-                </div>
+            </div>
             <div className={styles.SvgWrapper}>
-                <div className={styles.renderSvg}>
-                    {/*Add svg here later*/}
-                    {/*<img src="/profile_pic.JPG" alt="profilepic" />*/}
-                </div>
+                <ParticleOrb />
             </div>
         </section>
     )

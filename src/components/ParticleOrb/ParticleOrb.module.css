@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 100%; /* Changed from 100vh to 100% */
+    background-color: transparent; /* Changed from black to transparent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.perspectiveWrapper {
+    perspective: 1000px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.particleWrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    transform-style: preserve-3d;
+}

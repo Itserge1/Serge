@@ -7,6 +7,8 @@ import About from "@/components/About/About";
 import Background from "@/components/Background/Background";
 import Projects from "@/components/Projects/Projects";
 import FadeInSection from "@/components/FadeInSection/FadeInSection";
+import ParticleOrb from "@/components/ParticleOrb/ParticleOrb";
+
 
 const HomePage = () => {
     return(
@@ -14,6 +16,8 @@ const HomePage = () => {
             <div>
                 <Introduction />
             </div>
+
+            <ParticleOrb/>
 
             <FadeInSection>
                 <About />
