@@ -17,19 +17,19 @@ const HomePage = () => {
                 <Introduction />
             </div>
 
-            <ParticleOrb/>
+            {/*<ParticleOrb/>*/}
 
-            <FadeInSection>
-                <About />
-            </FadeInSection>
+            {/*<FadeInSection>*/}
+            {/*    <About />*/}
+            {/*</FadeInSection>*/}
 
-            <FadeInSection>
-                <Background />
-            </FadeInSection>
+            {/*<FadeInSection>*/}
+            {/*    <Background />*/}
+            {/*</FadeInSection>*/}
 
-            <FadeInSection>
-                <Projects />
-            </FadeInSection>
+            {/*<FadeInSection>*/}
+            {/*    <Projects />*/}
+            {/*</FadeInSection>*/}
         </section>
     )
 }

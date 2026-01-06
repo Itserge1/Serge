@@ -1,13 +1,11 @@
 .intro{
-    width: 80rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0 1rem 6rem;
+    padding: 1rem 0 1rem 3rem;
     gap: 4rem;
 }
 
 .testInfos{
-    width: 140%;
 }
 
 .testInfos-title {
@@ -34,12 +32,11 @@
 
 .SvgWrapper{
     width: 100%;
-    height: 25rem; /* Give it a fixed height */
+    height: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative; /* Important for positioning the orb */
-    /*border: solid 5px #00C2FF;*/
 }
 
 .renderSvg img{
@@ -48,3 +45,45 @@
     height: 100%;
     display: block;
 }
+
+@media screen and (max-width: 1280px) {
+    .intro{
+        display: flex;
+        justify-content: space-between;
+        /*padding: 1rem 0 1rem 3rem;*/
+        gap: 4rem;
+    }
+
+    .testInfos{
+        width: 110%;
+        /*background-color: crimson;*/
+    }
+
+}
+
+@media screen and (max-width: 970px){
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        /*background-color: olivedrab;*/
+        margin: 0;
+        padding: 0 2rem;
+    }
+
+    .testInfos{
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .intro{
+        padding: 0;
+    }
+    .testInfos{
+        padding: 0 1rem;
+    }
+}
+

@@ -1,7 +1,8 @@
 .container {
     width: 100%;
-    height: 100%; /* Changed from 100vh to 100% */
-    background-color: transparent; /* Changed from black to transparent */
+    height: 100%;
+    /*background-color: transparent; */
+    /*background-color: crimson;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,9 +27,9 @@
 }
 
 
-/*@media screen and (max-width: 480px){*/
-/*    .container{*/
-/*        display: none;*/
-/*    }*/
+@media screen and (max-width: 480px){
+    .container{
+        height: 140%;
+    }
 
-/*}*/
+}

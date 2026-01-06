@@ -75,8 +75,7 @@
 
 
 /*RESPONSIVE*/
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
     .navbar{
         width: 100vw;
         display: flex;
@@ -149,7 +148,7 @@
         font-size: 2.5rem;
     }
 
-    .navbar_socials{
+    .navbar_socials {
         width: 100%;
         /*background-color:  olivedrab;*/
         display: flex;
@@ -158,11 +157,10 @@
         gap: 1rem;
         padding: 4rem 0 0 0;
     }
+}
 
-
-
-
-
-
-
+@media screen and (max-width: 1440px) {
+    .navbar_socials_icon_bar{
+        display: none;
+    }
 }
