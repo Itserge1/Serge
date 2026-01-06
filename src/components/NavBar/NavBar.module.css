@@ -2,35 +2,35 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 2rem 0;
+    justify-content: space-between;
+    padding: 2rem 3rem;
     position: sticky;
     top: 0;
     background-color: #0a0a0a;
     z-index: 1000;
 }
 
-.navbar-test{
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar-test ul{
+.navbar__content{
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar-test ul li{
+.navbar__content ul{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__content ul li{
     cursor: pointer;
     transition: 0.7s;
     position: relative;
 }
 
-.navbar-test ul li::before{
+.navbar__content ul li::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -41,15 +41,15 @@
     transition: width 0.3s ease;
 }
 
-.navbar-test ul li:hover::before{
+.navbar__content ul li:hover::before{
     width: 100%;
 }
 
-.navbar-test ul li:hover{
+.navbar__content ul li:hover{
     color: var(--color-secondary);
 }
 
-.navbar-icons{
+.navbar_socials{
     width: 8rem;
     display: flex;
     align-items: center;
@@ -63,4 +63,106 @@
 
 .icon:hover{
     color: var(--color-secondary);
+}
+
+.nav button{
+    display: none;
+}
+
+.navbar__content__responsive{
+    display: none;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 480px){
+    .navbar{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        position: sticky;
+        top: 0;
+        background-color: #0a0a0a;
+        z-index: 1000;
+    }
+
+    .navbar h1{
+        font-size: 2rem;
+    }
+
+    .icon{
+        font-size: 3rem;
+        transition: 0.7s;
+    }
+
+    .navbar button{
+        display: block;
+    }
+
+    .navbar__content{
+        display: none;
+    }
+
+    .navbar__content__responsive{
+        /*display: block;*/
+        background-color: #0a0a0a;
+        position: fixed;
+        right: -100vw;
+        top: 0;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: .7rem;
+        border-radius: 0 0 0 5rem;
+        transition: 0.7s;
+    }
+
+    .nav_open{
+        right: 0;
+    }
+
+    .navbar__content__responsive__close{
+        width: 100%;
+        height: 5rem;
+        /*background-color: darkgreen;*/
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 3rem;
+        font-size: 3rem;
+        padding: 1rem 1.5rem 0 0;
+    }
+
+    .navbar__content__responsive ul{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /*background-color: rebeccapurple;*/
+        font-size: 2.5rem;
+    }
+
+    .navbar_socials{
+        width: 100%;
+        /*background-color:  olivedrab;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 4rem 0 0 0;
+    }
+
+
+
+
+
+
+
 }
