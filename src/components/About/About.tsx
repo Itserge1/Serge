@@ -16,11 +16,11 @@ const About = () => {
                 <div className={styles["about__text"]}>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid atque beatae corporis culpa
-                        cum dolores ipsum magnam molestiae neque obcaecati odit possimus, provident qui quidem quis recusandae .
+                        cum dolores ipsum magnam molestiae neque obcaecati odit possimus, provident qui quidem quis recusandae.
                     </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid atque beatae corporis culpa
-                        cum dolores ipsum magnam molestiae neque obcaecati odit possimus, provident qui quidem quis recusandae .
+                        cum dolores ipsum magnam molestiae neque obcaecati odit possimus, provident qui quidem quis recusandae.
                     </p>
                     <ul>
                         <li><RxTriangleRight color="#00C2FF" />python</li>
@@ -38,7 +38,7 @@ const About = () => {
                     </ul>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid atque beatae corporis culpa
-                        cum dolores ipsum magnam molestiae neque obcaecati odit possimus, provident qui quidem quis recusandae .
+                        cum dolores ipsum magnam molestiae neque obcaecati odit possimus, provident qui quidem quis recusandae.
                     </p>
                 </div>
                 <div className={styles["about__image"]}>

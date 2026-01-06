@@ -19,9 +19,9 @@ const HomePage = () => {
 
             {/*<ParticleOrb/>*/}
 
-            {/*<FadeInSection>*/}
-            {/*    <About />*/}
-            {/*</FadeInSection>*/}
+            <FadeInSection>
+                <About />
+            </FadeInSection>
 
             {/*<FadeInSection>*/}
             {/*    <Background />*/}
